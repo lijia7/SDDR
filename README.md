@@ -1,4 +1,4 @@
-# NSelf-Distilled Depth Refinement with Noisy Poisson Fusion (NeurIPS2024) 🚀🚀🚀
+# Self-Distilled Depth Refinement with Noisy Poisson Fusion (NeurIPS2024) 🚀🚀🚀
 
 🎉🎉🎉 **Welcome to the SDDR GitHub repository!** 🎉🎉🎉  
 
