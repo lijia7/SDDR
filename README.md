@@ -15,7 +15,7 @@ Institutes: &sup1;Huazhong University of Science and Technology, &sup2;Adobe Res
 
 
 
-## Envs
+## Envs {bash}
 
 ```bash
 pip install -r requirements.txt
@@ -31,6 +31,9 @@ python demo.py  --weight checkpoints/model_dict_1_5600.pt \
 		--output demo_output/Middlebury2021/LeRes_Fusion \
 		--low demo_input/Middlebury2021/LeRes/low_448 \
 		--high demo_input/Middlebury2021/LeRes/high_1920 
+
+# or you can simply run this for middlebury2021 inference(all parameters are set to default)
+python demo.py
 ```
 
 The official metrics can be verified directly using the `previous_evaluate_mid21.py` (the [middlebury2021 dataset](https://vision.middlebury.edu/stereo/data/scenes2021/zip/all.zip) needs to be unzipped to demo_input/Middlebury2021/GTData)
