@@ -15,7 +15,7 @@ Institutes: &sup1;Huazhong University of Science and Technology, &sup2;Adobe Res
 
 
 
-## Envs {bash}
+## Envs
 
 ```bash
 pip install -r requirements.txt
