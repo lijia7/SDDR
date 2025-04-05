@@ -23,6 +23,8 @@ pip install -r requirements.txt
 
 ## Demo
 
+### OneStage
+
 As an example of reasoning on middlebury, the input parameters are the weight path, the rgb folder path, the output path, and the folder path predicted by the base high and low resolutions.
 
 ```bash
@@ -37,3 +39,13 @@ python demo.py
 ```
 
 The official metrics can be verified directly using the `previous_evaluate_mid21.py` (the [middlebury2021 dataset](https://vision.middlebury.edu/stereo/data/scenes2021/zip/all.zip) needs to be unzipped to demo_input/Middlebury2021/GTData)
+
+### TwoStage
+
+The two-stage prediction will be saved in `demo_output/Middlebury2021/LeRes_2stage/mid21_final, the metric verification is the same as above.(Default base model is set to LeRes50)`
+
+```bash
+python demo.py  --weight checkpoints/model_dict_1_5600.pt \
+		--rgb demo_input/Middlebury2021/rgb \
+		--twostage
+```

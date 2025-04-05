@@ -74,6 +74,7 @@ if __name__ == "__main__":
     imgindex = 0
     gtdir="demo_input/Middlebury2021/GTData"
     preddir,pred_is_disp="demo_output/Middlebury2021/LeRes_Fusion",False
+    # preddir,pred_is_disp="demo_output/Middlebury2021/LeRes_2stage/mid21_final",False
     imglist=sorted(os.listdir(preddir))
     abs_rel,sq_rel,rmse,log10,thr1,thr2,thr3 = np.zeros(len(imglist)),np.zeros(len(imglist)),np.zeros(len(imglist)),np.zeros(len(imglist)),np.zeros(len(imglist)),np.zeros(len(imglist)),np.zeros(len(imglist))
     for imgname in imglist:
