@@ -2,7 +2,6 @@
 
 🎉🎉🎉 **Welcome to the SDDR GitHub repository!** 🎉🎉🎉
 
-
 Authors: [Jiaqi Li](https://scholar.google.com/citations?hl=zh-CN&user=i-2ghuYAAAAJ)&sup1;,
 [Yiran Wang](https://scholar.google.com.hk/citations?hl=zh-CN&user=p_RnaI8AAAAJ)&sup1;,
 [Jinghong Zheng](https://scholar.google.com/citations?user=sLTEDCsAAAAJ&hl=zh-CN)&sup1;,
@@ -13,6 +12,8 @@ Authors: [Jiaqi Li](https://scholar.google.com/citations?hl=zh-CN&user=i-2ghuYAA
 
 Institutes: &sup1;Huazhong University of Science and Technology, &sup2;Adobe Research
 
+
+<img src="./assets/neurips2024.png" alt="teaser" width="500"/>
 
 
 ## Envs
