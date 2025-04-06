@@ -42,7 +42,7 @@ The official metrics can be verified directly using the `previous_evaluate_mid21
 
 ### TwoStage
 
-The two-stage prediction will be saved in `demo_output/Middlebury2021/LeRes_2stage/mid21_final, the metric verification is the same as above.(Default base model is set to LeRes50)`
+The two-stage prediction will be saved in `demo_output/Middlebury2021/LeRes_2stage/mid21_final`, the metric verification is the same as above.(Default base model is set to LeRes50)
 
 ```bash
 python demo.py  --weight checkpoints/model_dict_1_5600.pt \
